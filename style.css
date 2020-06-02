@@ -1,0 +1,38 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+.drum-pad{
+  background-color: #fff;
+  flex: 0 0 25%;
+  height: 20vh;
+  margin: 1.5vh;
+  border-weight: thin;
+  border-style: solid;
+  border-color: black;
+  justify-content: center;
+}
+#display {
+  width: 79%;
+  height: 25vh;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+  font-family: sans-serif;
+  border-weight: thin;
+  border-style: solid;
+  border-color: black;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4vh;
+}
+
+button:active{
+  background-color: lightblue;
+}
